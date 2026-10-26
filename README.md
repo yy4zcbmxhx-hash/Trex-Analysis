@@ -2,7 +2,7 @@
 
 Анализ производителя композитных террасных покрытий и ограждений Trex на основе SEC-отчётности. Проект исследует, как рост продаж, загрузка новых мощностей и снижение капитальных затрат могут повлиять на прибыль, денежный поток и стоимость бизнеса.
 
-**[Читать анализ, PDF](reports/Trex_Investment_Memo.pdf)** · **[Скачать Excel-модель](https://github.com/yy4zcbmxhx-hash/trex-financial-analysis/raw/refs/heads/main/model/Trex_Operating_DCF.xlsx)**
+**[Читать анализ, PDF](reports/Trex_Investment_Memo.pdf)** · **[Скачать Excel-модель](https://github.com/yy4zcbmxhx-hash/Trex-Analysis/raw/refs/heads/main/model/Trex_Operating_DCF.xlsx)**
 
 Записка и модель на английском языке. Информационный срез: **26 октября 2026**. Дата оценки и баланса: **30 июня 2026**. Это ретроспективно обновлённая учебная оценка, не текущая целевая цена акции.
 
