@@ -1,0 +1,432 @@
+{
+  "units": "USD thousands unless shares or ratios explicitly stated",
+  "as_of": "2026-10-26",
+  "sources": {
+    "annual": "https://www.sec.gov/Archives/edgar/data/1069878/000119312526068732/trex-20251231.htm",
+    "interim": "https://www.sec.gov/Archives/edgar/data/1069878/000119312526331450/trex-ex99_1.htm",
+    "interim_10q": "https://www.sec.gov/Archives/edgar/data/1069878/000119312526332813/trex-20260630.htm"
+  },
+  "historical_year_order": [
+    2023,
+    2024,
+    2025
+  ],
+  "historical_income": {
+    "revenue": [
+      1094837,
+      1151449,
+      1174267
+    ],
+    "cost_sales": [
+      644042,
+      649551,
+      714303
+    ],
+    "gross_profit": [
+      450795,
+      501898,
+      459964
+    ],
+    "sga": [
+      176203,
+      179995,
+      202003
+    ],
+    "ebit": [
+      274592,
+      321903,
+      257961
+    ],
+    "net_interest_expense": [
+      5,
+      -11,
+      0
+    ],
+    "pretax": [
+      274587,
+      321914,
+      257961
+    ],
+    "tax": [
+      70468,
+      83468,
+      67546
+    ],
+    "net_income": [
+      204119,
+      238446,
+      190415
+    ],
+    "diluted_eps": [
+      1.88,
+      2.2,
+      1.78
+    ],
+    "basic_weighted_shares": [
+      108680459,
+      108191635,
+      107010658
+    ],
+    "diluted_weighted_shares": [
+      108809403,
+      108322576,
+      107095977
+    ]
+  },
+  "historical_cashflow": {
+    "da": [
+      50189,
+      54670,
+      62957
+    ],
+    "deferred_tax": [
+      3868,
+      -12231,
+      17114
+    ],
+    "sbc": [
+      10164,
+      12635,
+      9115
+    ],
+    "disposal_loss": [
+      3140,
+      2644,
+      522
+    ],
+    "other_noncash": [
+      -48,
+      187,
+      -53
+    ],
+    "change_ar": [
+      56921,
+      -47220,
+      40265
+    ],
+    "change_inventory": [
+      35878,
+      -116423,
+      18286
+    ],
+    "change_prepaid": [
+      -750,
+      -10650,
+      3468
+    ],
+    "change_ap": [
+      2697,
+      -819,
+      6878
+    ],
+    "change_accrued": [
+      8875,
+      12162,
+      8771
+    ],
+    "change_income_tax_receivable_payable": [
+      14367,
+      10528,
+      375
+    ],
+    "cfo": [
+      389420,
+      143929,
+      358113
+    ],
+    "capex_cash_outflow": [
+      166089,
+      232337,
+      223592
+    ],
+    "intangible_investment_outflow": [
+      0,
+      4304,
+      9983
+    ],
+    "ppe_disposal_proceeds": [
+      0,
+      106,
+      358
+    ],
+    "share_repurchases_cash_outflow": [
+      18450,
+      105940,
+      54472
+    ],
+    "cash_tax_paid": [
+      52340,
+      85171,
+      50056
+    ],
+    "capex_in_ap_change": [
+      1332,
+      38129,
+      -33390
+    ]
+  },
+  "balance_date_order": [
+    "2024-12-31",
+    "2025-12-31",
+    "2026-06-30"
+  ],
+  "balance": {
+    "cash": [
+      1292,
+      3807,
+      6475
+    ],
+    "ar": [
+      88356,
+      48091,
+      262548
+    ],
+    "inventory": [
+      256951,
+      238665,
+      189644
+    ],
+    "prepaid_other_current": [
+      21978,
+      19843,
+      18883
+    ],
+    "current_assets": [
+      368577,
+      310406,
+      477550
+    ],
+    "ppe_net": [
+      922868,
+      1049733,
+      1054385
+    ],
+    "rou_assets": [
+      52195,
+      52632,
+      49011
+    ],
+    "goodwill_intangibles": [
+      22048,
+      31529,
+      35020
+    ],
+    "other_assets": [
+      8279,
+      9141,
+      10502
+    ],
+    "assets": [
+      1373967,
+      1453441,
+      1626468
+    ],
+    "ap": [
+      61272,
+      34759,
+      60659
+    ],
+    "accrued_other_current": [
+      72879,
+      77030,
+      131245
+    ],
+    "current_warranty": [
+      5726,
+      5416,
+      5009
+    ],
+    "credit_line": [
+      202600,
+      133500,
+      253000
+    ],
+    "current_liabilities": [
+      342477,
+      250705,
+      449913
+    ],
+    "deferred_tax_liabilities": [
+      68719,
+      85833,
+      85833
+    ],
+    "noncurrent_lease_liabilities": [
+      41979,
+      41755,
+      37803
+    ],
+    "noncurrent_warranty": [
+      17109,
+      24324,
+      26278
+    ],
+    "other_lt_liabilities": [
+      16559,
+      16560,
+      16559
+    ],
+    "liabilities": [
+      486843,
+      419177,
+      616386
+    ],
+    "equity": [
+      887124,
+      1034264,
+      1010082
+    ],
+    "shares_outstanding": [
+      107154305,
+      105737266,
+      101865035
+    ]
+  },
+  "interim_period_order": [
+    "H1 2025",
+    "H1 2026"
+  ],
+  "interim_income": {
+    "sales": [
+      727794,
+      761422
+    ],
+    "cogs": [
+      431931,
+      464056
+    ],
+    "gross_profit": [
+      295863,
+      297366
+    ],
+    "sga": [
+      111801,
+      122997
+    ],
+    "other_expenses": [
+      0,
+      4672
+    ],
+    "ebit": [
+      184062,
+      169697
+    ],
+    "interest": [
+      0,
+      2327
+    ],
+    "pretax": [
+      184062,
+      167370
+    ],
+    "tax": [
+      47719,
+      44091
+    ],
+    "net_income": [
+      136343,
+      123279
+    ],
+    "da": [
+      30057,
+      37738
+    ],
+    "adjusted_ebitda": [
+      223273,
+      215136
+    ],
+    "diluted_weighted_shares": [
+      107290272,
+      103751287
+    ]
+  },
+  "interim_cashflow": {
+    "cfo": [
+      95739,
+      95740
+    ],
+    "capex_cash_outflow": [
+      126275,
+      52737
+    ],
+    "intangible_investment_outflow": [
+      4901,
+      4542
+    ],
+    "ar_change": [
+      -202870,
+      -214457
+    ],
+    "inventory_change": [
+      65439,
+      49021
+    ],
+    "prepaid_change": [
+      6816,
+      115
+    ],
+    "ap_change": [
+      23377,
+      32546
+    ],
+    "accrued_change": [
+      24802,
+      32420
+    ],
+    "tax_receivable_payable_change": [
+      6286,
+      25157
+    ],
+    "sbc": [
+      5247,
+      5474
+    ],
+    "share_repurchases_cash_outflow": [
+      4008,
+      153557
+    ]
+  },
+  "guidance_FY2026_issued_2026_08_04": {
+    "revenue_range": [
+      1215000,
+      1250000
+    ],
+    "adjusted_ebitda_range": [
+      335000,
+      350000
+    ],
+    "da_approx": 85000,
+    "sga_to_sales_approx": 0.18,
+    "interest_range": [
+      8000,
+      10000
+    ],
+    "effective_tax_rate_range": [
+      0.255,
+      0.27
+    ],
+    "capex_range": [
+      100000,
+      120000
+    ],
+    "Q3_revenue_range": [
+      305000,
+      320000
+    ]
+  },
+  "notes": [
+    "2023 and 2024 figures are retrospectively adjusted comparatives in 2025 10-K; do not mix with originally reported inventory and earnings.",
+    "FY2024 original EBIT305673 and NI226392 became EBIT321903 and NI238446; inventory207282 became256951.",
+    "Interim release dated August 4 2026. Latest official results located as of research cutoff, not independently guaranteed complete event inventory.",
+    "Arkansas decking accelerated from 2027 expectation in 10-K to Q3 2026 ramp in Q2 release; management expects 50% capacity by year-end2026.",
+    "Management goal of USD2bn sales by2030 is an aspiration, not a base-case forecast.",
+    "FY2025 PP&E capex excludes9983 intangible investment. H1 2026 excludes4542. Account for both consistently in FCF.",
+    "Balance sheet AP change differs from cashflow AP change because of capex accruals; use operating NWC definition consistently.",
+    "Do not combine year-end cash/debt with June2026 share count without explicitly explaining date mismatch.",
+    "H1 cash flows are strongly seasonal; Q2 FCF181843 is not H1 FCF. H1 CFO95740 less PP&E52737 less intangibles4542 equals38461.",
+    "Q2 2026 adjusted EBITDA excludes4672 equipment disposal/write-down; adjustment is not cash recurring operating earnings.",
+    "Inventory method changed from LIFO to FIFO in Q4 2025 and applied retrospectively; comparable historical values in JSON follow FIFO.",
+    "FY2025 three customers accounted for73% of sales (2024 81%,2023 72%); material distribution concentration risk.",
+    "Raw official HTML download blocked by SEC origin policy; figures verified through web-readable SEC filing, URLs retained."
+  ]
+}

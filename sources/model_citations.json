@@ -1,0 +1,18 @@
+{
+  "workbook": "Trex_Operating_DCF.xlsx",
+  "status": "screen-grade",
+  "sources": {
+    "annual": {"url": "https://www.sec.gov/Archives/edgar/data/1069878/000119312526068732/trex-20251231.htm", "range": "Actuals!D9:F27", "basis": "FY2025 10-K restated 2023–24 comparatives, USD millions"},
+    "interim": {"url": "https://www.sec.gov/Archives/edgar/data/1069878/000119312526332813/trex-20260630.htm", "ranges": ["Actuals!D32:E48", "Actuals!D51:F56"], "basis": "June30 2026 financial statements, cash and credit plus shares at same date"},
+    "guidance": {"url": "https://www.sec.gov/Archives/edgar/data/1069878/000119312526331450/trex-ex99_1.htm", "range": "Actuals!C63", "basis": "FY2026 guidance issued August4 2026"},
+    "forecast": {"range": "Assumptions!D10:H44", "basis": "Analyst estimates, base/downside; not consensus"},
+    "discount": {"range": "DCF!D6:D7", "basis": "10% WACC and 2.5% terminal growth screening assumptions"}
+  },
+  "outputs": [
+    {"name": "Enterprise value", "cell": "DCF!D29", "dependencies": ["Operating!G26:K26", "DCF!D16", "DCF!D6:D7", "DCF!D20:H20"], "sources": ["annual", "interim", "forecast", "discount"]},
+    {"name": "Equity value", "cell": "DCF!D32", "dependencies": ["DCF!D29", "Actuals!F51:F52"], "sources": ["annual", "interim", "forecast", "discount"]},
+    {"name": "Common share value", "cell": "DCF!D34", "dependencies": ["DCF!D32", "Actuals!F56"], "sources": ["annual", "interim", "forecast", "discount"]},
+    {"name": "Terminal concentration", "cell": "DCF!D35", "dependencies": ["DCF!D28:D29"], "sources": ["annual", "interim", "forecast", "discount"]}
+  ],
+  "limitations": ["Retrospective June30 valuation using information available October26", "WACC not estimated from market beta and capital structure", "Forecast not built from unit volumes and prices", "Cash bridge is normalized proxy, not full GAAP balance sheet", "No current price comparison", "No future buybacks or dilution projected"]
+}
